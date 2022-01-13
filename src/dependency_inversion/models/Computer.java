@@ -3,7 +3,7 @@ package dependency_inversion.models;
 import dependency_inversion.repository.IKeyboard;
 import dependency_inversion.repository.IMouse;
 
-//Low High Module
+//High Level Module
 public class Computer {
 
     //private Keyboard keyboard; //Concretion #1
