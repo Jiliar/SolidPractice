@@ -1,11 +1,11 @@
 # SolidPractice
-This project was created to apply knowledges about SOLID, Here you could watch some applications to show to applicability of SOLID using diagrams and JAVA .
+This project was created to apply knowledge's about SOLID, Here you could watch some applications to show to applicability of SOLID using diagrams and JAVA .
 
 ### Single Responsability:
 
-This principle establishes that a component or class must have a simple, single and concrete responsability. <br/>
-This simplifies code by avoiding the existence of classes <br/> that fulfuill with several funtions, wich are difficult <br/> 
-to memorize and often waste time looking for wich part of code does witch function. <br/>
+This principle establishes that a component or class must have a simple, single and concrete responsibility. <br/>
+This simplifies code by avoiding the existence of classes <br/> that fulfill with several functions, which are difficult <br/> 
+to memorize and often waste time looking for which part of code does witch function. <br/>
 A class should have only a reason to change, that is to say classes should have a high cohesion.
 
 ### Open / Closed:
@@ -13,7 +13,7 @@ A class should have only a reason to change, that is to say classes should have 
 This principle is that the objects and entities must be open for its extensions, but closed for modifications.
 This principle is usually solved using inheritance.
 
-### Liskov Sustitution:
+### Liskov Substitution:
 
 Subtypes can be substituted for base types.
 
