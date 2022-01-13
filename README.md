@@ -1,6 +1,5 @@
 # SolidPractice
-This project was created to apply knowledges about SOLID, Here you could watch some applications to show to applicability <br/>
-of SOLID using diagrams and JAVA .
+This project was created to apply knowledges about SOLID, Here you could watch some applications to show to applicability of SOLID using diagrams and JAVA .
 
 ### Single Responsability:
 
