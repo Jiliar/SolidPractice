@@ -1,30 +1,18 @@
-# SolidPractice
-This project was created to apply knowledge's about SOLID, Here you could watch some applications to show to applicability of SOLID using diagrams and JAVA .
+# 🚀 SolidPractice
 
-### Single Responsability:
+This project demonstrates practical applications of **SOLID Principles** in Java, complete with diagrams for clear understanding! 💡
 
-This principle establishes that a component or class must have a simple, single and concrete responsibility. <br/>
-This simplifies code by avoiding the existence of classes <br/> that fulfill with several functions, which are difficult <br/> 
-to memorize and often waste time looking for which part of code does witch function. <br/>
-A class should have only a reason to change, that is to say classes should have a high cohesion.
+### 📌 Single Responsibility Principle (SRP)
+Each class has **one specific responsibility**. This keeps the code organized, easy to maintain, and avoids classes with multiple unrelated functions.
 
-### Open / Closed:
+### 📌 Open/Closed Principle (OCP)
+Classes should be **open for extension but closed for modification**, achievable with inheritance and polymorphism.
 
-This principle is that the objects and entities must be open for its extensions, but closed for modifications.
-This principle is usually solved using inheritance.
+### 📌 Liskov Substitution Principle (LSP)
+Subtypes should be **substitutable for their base types** without altering the program’s correctness.
 
-### Liskov Substitution:
+### 📌 Interface Segregation Principle (ISP)
+Interfaces should be **specific to client requirements**, preventing “fat” interfaces and enforcing only relevant methods.
 
-Subtypes can be substituted for base types.
-
-### Interfaces Segregation:
-
-Clients should never be forced to depend on methods that not use. Always after create interfaces to define behaviors, <br/>
-we must be sure that the classes which implements interfaces use all methods, on the other hand we should create <br/> 
-interfaces a little less complex to avoid fat interfaces.
-
-### Dependency Inversion:
-
-This principle allow creating applications more flexible, that's to say, applications that we can extend easily. <br/>
-The entities must depend on abstractions and not concretions. This definition establishes that a high level module <br/>
-shouldn't depend on a low level module, else it must depend on abstractions.
+### 📌 Dependency Inversion Principle (DIP)
+High-level modules should **depend on abstractions, not details**, creating a flexible and extendable code structure.
